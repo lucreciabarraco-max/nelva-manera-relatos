@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relato</title>
+  <style>
+    /* PALETA MARRONES CLAROS + BEIGE */
+    :root {
+      --fondo: #f5f0e8;
+      --cafe-suave: #d8c7b4;
+      --cafe-medio: #b49b87;
+      --texto: #3b2f28;
+      --acento: #a67c52;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--fondo);
+      font-family: "Georgia", serif;
+      color: var(--texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--cafe-medio);
+      padding: 1.5rem;
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      letter-spacing: 1px;
+    }
+
+    .contenedor {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      border: 1px solid var(--cafe-suave);
+    }
+
+    h2 {
+      color: var(--texto);
+      border-left: 4px solid var(--acento);
+      padding-left: 0.5rem;
+      margin-top: 2rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 3rem;
+      padding: 1.5rem;
+      background: var(--cafe-medio);
+      color: white;
+      border-radius: 0 0 12px 12px;
+    }
+
+    .boton {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.8rem 1.6rem;
+      background: var(--acento);
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+    .boton:hover { background: #8c623a; }
+  </style>
+</head>
+<body>
+
+<header>
+  Relato — Página principal
+</header>
+
+<div class="contenedor">
+  <h2>Bienvenida</h2>
+  <p>Este es el sitio donde vas a poder subir y compartir tus relatos, microcuentos y escritos especiales.</p>
+
+  <h2>Sobre este proyecto</h2>
+  <p>La idea es tener un espacio cálido, con estética suave en tonos beige y marrones, que acompañe la lectura y escritura de forma tranquila.</p>
+
+  <h2>Comenzar</h2>
+  <p>Podés agregar aquí botones, enlaces o secciones según lo que quieras que haga la página.</p>
+
+  <a class="boton" href="#">Ver más</a>
+</div>
+
+<div class="footer">
+  © 2025 — Relato
+</div>
+
+</body>
+</html>
